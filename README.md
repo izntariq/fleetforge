@@ -58,7 +58,7 @@ npm run build        # TypeScript and production frontend bundle
 npm run test:browser # Separate real-browser UI, replay and sandbox checks
 ```
 
-The browser suite uses the installed Chrome channel on macOS. Browser checks and live Gemini execution are separate from unit tests. See [verification status](docs/STATUS.md) for exactly what was run and what remains pending.
+The browser suite uses the installed Chrome channel on macOS. Browser checks and live Gemini execution are separate from unit tests. See [verification status](docs/STATUS.md) for what was run and the [hackathon readiness audit](docs/HACKATHON-READINESS.md) for submission gates.
 
 ## Structure
 

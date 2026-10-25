@@ -1,0 +1,140 @@
+{
+  "recordedAt": "2026-10-25T20:31:21.983Z",
+  "runtime": "v23.10.0",
+  "platform": "darwin",
+  "scope": "Trusted built-in controller benchmarks in Node; not browser or Gemini-generated results.",
+  "results": [
+    {
+      "scenario": "crossroads",
+      "controller": "seeded-fault",
+      "feasibility": "feasible",
+      "status": "failed",
+      "deliveries": 0,
+      "total": 2,
+      "ticks": 120,
+      "illegalMoves": 0,
+      "maxDecisionMs": 0.259
+    },
+    {
+      "scenario": "crossroads",
+      "controller": "built-in-reference",
+      "feasibility": "feasible",
+      "status": "passed",
+      "deliveries": 2,
+      "total": 2,
+      "ticks": 7,
+      "illegalMoves": 0,
+      "maxDecisionMs": 1.169
+    },
+    {
+      "scenario": "blocked-aisle",
+      "controller": "seeded-fault",
+      "feasibility": "feasible",
+      "status": "failed",
+      "deliveries": 0,
+      "total": 2,
+      "ticks": 120,
+      "illegalMoves": 0,
+      "maxDecisionMs": 0.279
+    },
+    {
+      "scenario": "blocked-aisle",
+      "controller": "built-in-reference",
+      "feasibility": "feasible",
+      "status": "passed",
+      "deliveries": 2,
+      "total": 2,
+      "ticks": 7,
+      "illegalMoves": 0,
+      "maxDecisionMs": 1.167
+    },
+    {
+      "scenario": "shift-change",
+      "controller": "seeded-fault",
+      "feasibility": "feasible",
+      "status": "failed",
+      "deliveries": 0,
+      "total": 2,
+      "ticks": 120,
+      "illegalMoves": 0,
+      "maxDecisionMs": 0.206
+    },
+    {
+      "scenario": "shift-change",
+      "controller": "built-in-reference",
+      "feasibility": "feasible",
+      "status": "passed",
+      "deliveries": 2,
+      "total": 2,
+      "ticks": 7,
+      "illegalMoves": 0,
+      "maxDecisionMs": 0.82
+    },
+    {
+      "scenario": "holdout-reverse",
+      "controller": "seeded-fault",
+      "feasibility": "feasible",
+      "status": "failed",
+      "deliveries": 0,
+      "total": 2,
+      "ticks": 120,
+      "illegalMoves": 0,
+      "maxDecisionMs": 0.171
+    },
+    {
+      "scenario": "holdout-reverse",
+      "controller": "built-in-reference",
+      "feasibility": "feasible",
+      "status": "passed",
+      "deliveries": 2,
+      "total": 2,
+      "ticks": 7,
+      "illegalMoves": 0,
+      "maxDecisionMs": 0.439
+    },
+    {
+      "scenario": "holdout-late-block",
+      "controller": "seeded-fault",
+      "feasibility": "feasible",
+      "status": "failed",
+      "deliveries": 0,
+      "total": 2,
+      "ticks": 120,
+      "illegalMoves": 0,
+      "maxDecisionMs": 0.141
+    },
+    {
+      "scenario": "holdout-late-block",
+      "controller": "built-in-reference",
+      "feasibility": "feasible",
+      "status": "passed",
+      "deliveries": 2,
+      "total": 2,
+      "ticks": 7,
+      "illegalMoves": 0,
+      "maxDecisionMs": 1.365
+    },
+    {
+      "scenario": "holdout-outbound-pickup",
+      "controller": "seeded-fault",
+      "feasibility": "feasible",
+      "status": "failed",
+      "deliveries": 0,
+      "total": 2,
+      "ticks": 120,
+      "illegalMoves": 0,
+      "maxDecisionMs": 0.154
+    },
+    {
+      "scenario": "holdout-outbound-pickup",
+      "controller": "built-in-reference",
+      "feasibility": "feasible",
+      "status": "passed",
+      "deliveries": 2,
+      "total": 2,
+      "ticks": 8,
+      "illegalMoves": 0,
+      "maxDecisionMs": 2.434
+    }
+  ]
+}
