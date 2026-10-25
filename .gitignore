@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+.cache/
+.superpowers/
+artifacts/
+playwright-report/
+test-results/
+*.log
+.DS_Store
